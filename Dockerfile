@@ -4,9 +4,10 @@ FROM node:14-alpine as takurinton
 
 COPY package.json /src/package.json
 
+RUN cd /src; npm install
+
 COPY . /src
 
-RUN cd /src; npm install
 RUN cd /src; npm run build:takurinton
 
 EXPOSE 3000
