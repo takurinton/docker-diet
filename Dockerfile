@@ -1,12 +1,6 @@
 # docker build .
 
-FROM ubuntu:20.04
-
-RUN apt-get update
-RUN apt-get install -y curl
-RUN apt-get install -y nodejs
-RUN apt-get install -y npm
-RUN apt-get install -y build-essential
+FROM node:14-slim
 
 COPY package.json /src/package.json
 
