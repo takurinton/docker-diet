@@ -16,7 +16,12 @@ ubuntu       20.04     1318b700e415   3 weeks ago      72.8MB
 
 ### image size
 
+思ったより大きい？
+
 ```sh
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+<none>       <none>    a31337029ab3   19 seconds ago   1.13GB
+node         14        256d6360f157   4 days ago       944MB
 ```
 
 
