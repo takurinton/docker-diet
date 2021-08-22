@@ -11,6 +11,15 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 ubuntu       20.04     1318b700e415   3 weeks ago      72.8MB
 ```
 
+RUN をひとまとめにした。  
+image のサイズ自体は変わらないんだな。
+
+```sh
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+<none>       <none>    7cf5397cfd59   21 seconds ago   844MB
+ubuntu       20.04     1318b700e415   3 weeks ago      72.8MB
+```
+
 
 ## debian
 
