@@ -13,5 +13,5 @@
   },
   "include": [
     "./src/**/*.ts"
-, "src/index.tsx"  ]
+, "src/server.tsx"  ]
 }
